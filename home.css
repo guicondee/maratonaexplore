@@ -4,9 +4,56 @@
 }
 
 body{
-  width: 100%;
-  height: 100%;
+  background: black;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+ }
 
-  /* background: black; */
-}
-  
+ #container{
+   width: 80%;
+   max-width: 40rem;
+   margin-top: 10rem;
+   margin-inline: auto;
+ }
+
+ #container h1{
+   color: white;
+
+   margin-top: 4rem;
+   margin-bottom: 1rem;
+ }
+
+ #container p{
+   color:darkgray;
+
+   margin-bottom: 4rem;
+ }
+
+ #container input, button{
+   display: block;
+   width: 100%;
+
+   padding: 1.5rem;
+
+   font-size: 1rem;
+
+   border-radius: 3rem;
+
+  }
+
+  #container input{
+    margin-bottom: 1rem;
+    border: none;
+  }
+
+  #container button{
+    background: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    transition: filter 0.2s;
+  }
+
+  #container button:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
