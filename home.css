@@ -53,7 +53,21 @@ body{
     transition: filter 0.2s;
   }
 
+  /* pseudo-class :hover  */
   #container button:hover{
     filter: brightness(1.2);
     cursor: pointer;
   }
+
+  #resposta{
+    margin-top: 3rem;
+  }
+
+  #resposta div{
+    font-size: 1.6rem;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+  }
+
+
