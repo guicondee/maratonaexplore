@@ -60,7 +60,10 @@ body{
   }
 
   #resposta{
-    margin-top: 3rem;
+    margin-top: 1rem;
+    color: white;
+
+    transition: opacity 2s;
   }
 
   #resposta div{
