@@ -50,7 +50,7 @@ body{
     background: blueviolet;
     color: white;
     text-transform: uppercase;
-    transition: filter 0.2s;
+    transition: filter 0.1s;
   }
 
   /* pseudo-class :hover  */
